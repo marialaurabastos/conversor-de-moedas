@@ -1,0 +1,94 @@
+body {
+    color: white;
+    background-image: url(./Imagens/fundo.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 350px;
+    margin: 150px 0px 100px 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.moeda {
+    width: 100px;
+    height: 40px;
+
+    border: none;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.moeda:hover {
+    background-color: rgb(12, 177, 86);
+}
+
+.campo-valor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px 0px 10px 0px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.inserir-valor {
+    width: 100px;
+    height: 30px;
+    margin: 15px 0px 15px 0px;
+}
+
+.botao-converter {
+    display: flex;
+    align-items: flex-end;
+}
+
+.converter {
+    width: 120px;
+    height: 40px;
+
+    border: none;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    transition: background-color 0.3s ease;
+}
+
+.converter:hover {
+    background-color: rgb(12, 177, 86);
+}
+
+.selecionado {
+    background-color:rgb(12, 177, 86);
+    color: white;
+    font-weight: bold;
+}
