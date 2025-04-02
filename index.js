@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        const apiKey = "84dc8b58353c177f141713b6"; // Substitua pela sua chave da API
+        const apiKey = "API KEY"; // Substitua pela sua chave da API
         const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${moedaOrigem}`;
 
         try {
